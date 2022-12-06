@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" Rodrigo Coelho">
+    <meta name="description" content="informações penitenciárias das unidades da primeira região">
+    <meta name="keywords" content="presídio, preso">
+    <link rel="stylesheet" href="estilos/home.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>1ª Delegacia Penitenciária</title>
+</head>
+
+<body class="container-fluid">
+    <header class="container-fluid">
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html" class="logo-susepe"><img src="img/logosusepeTrans.png" alt="Logomarca da Susepe" class="logo-susepe-image"></a><p>1ª Delegacia Penitenciária</p>
+            </div>
+            
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="unidades.html" class="nav-link">Unidades</a></li>
+                    <li class="nav-item"><a href="normas.html" class="nav-link">Normas</a></li>
+                    <li class="nav-item"><a href="viaturas.html" class="nav-link">Viaturas</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div class="login-button">
+                <button><a href="entrar.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="fas fa-bars fa-4x"></i></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="unidades.html" class="nav-link">Unidades</a></li>
+                <li class="nav-item"><a href="normas.html" class="nav-link">Normas</a></li>
+                <li class="nav-item"><a href="viaturas.html" class="nav-link">Viaturas</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="entrar.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+        <img src="img/fotoDelegacia.jpg" class="img-fluid" alt="fachada da delegacia">
+    
+           
+
+
+    <div class="people-cards__avatar">
+      <img src="img/fotobennhur2.png" class="img-fluid" alt="Foto do rosto do Delegado Penitenciário Regional">
+    </div>
+    <div class="people-cards__content">
+      <h1 class="people-cards__title">QUEM SOMOS?</h1>
+      <p class="people-cards__text">Localizada no centro de Canoas sob o comando de <strong>Luís Benhur Nunes Calderon</strong>, a 1ª Delegacia Penitenciária é responsável por gerenciar onze unidades prisionais sendo: cinco penitenciárias, quatro semiabertos e dois presídios regionais. Esta é subdivida em setores como: operacional, recursos humanos, assessoria jurídica, material bélico, inteligência, protocolo, SASS e o gabinete do Delegado Penitenciário Regional. Seu objetivo principal é descentralizar as operações do Orgão Central da Superintendência de Serviços Penitenciários - <a href="http://www.susepe.rs.gov.br/capa.php" target="_blank">Susepe</a></p>
+    </div>
+
+    <section>
+      <div class="last-articles__tittle">
+        <h2>Tratamento Penal nas Unidades</h2>
+      </div>
+
+      <div class="last-articles__thumbs"> <!-- è div porque não tem valor semântico, se não seria uma section -->
+          <a href="unidades.html"><img src="img/institutoCanoas.jpg" alt="Foto Instituto Penal de Canoas"></a>
+          <a href="unidades.html"><img src="img/presidioTorres.jpg" alt="Foto Presídio Feminino de Torres"></a>
+          <a href="unidades.html"><img src="img/institutoNovoHamburgo.jpg" alt="Foto Instituto Penal de Novo Hamburgo"></a>
+          <a href="unidades.html"><img src="img/penitenciariaOsorio.jpg" alt="Foto Penitenciária de Osório"></a>
+        </div>
+    </section>
+
+
+
+    <section class="quote-container">
+      <div class="quote-slideshow">
+        <figure>
+          <h3>"Não é fácil ter que reprimir a liberdade de uma pessoa e ao mesmo tempo socializa-la..."</h3>
+              <figcaption>Policial Penal Rodrigo Coelho</figcaption>
+        </figure>
+        <figure>
+          <h3>"Se tivermos que tentar em mil para talvez acertar em um. É o que faremos, pois vale a pena toda vez que acontece."</h3>
+              <figcaption>Administradora Prisional Aposentada Fátima Simas</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+          <h4>SISTEMA PRISIONAL DA 1ª REGIÃO - <abbr title="Primeira Delegacia Penitenciária">1ªDPR</abbr></h4>
+          <p>Estamos sempre a disposição para melhor atender a Sociedade, o Poder Judiciário e o Ministério Público.</p>
+          <p>Informações locais acesse Unidades Prisionais</p>
+          <ul class="footer__link">
+                <li><a href="unidades.html" class="nav-link">Unidades</a></li>
+                <li><a href="normas.html" class="nav-link">Normas</a></li>
+                <li><a href="viaturas.html" class="nav-link">Viaturas</a></li>
+                <li><a href="contato.html" class="nav-link">Contato  <i class="fa-solid fa-envelope"></i></a></li>
+          </ul>
+      </div>
+    </footer>
+
+    <script src="scripts/home.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
