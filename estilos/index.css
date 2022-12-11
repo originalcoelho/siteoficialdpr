@@ -322,6 +322,7 @@ footer ul{
 .mobile-menu-icon {
     display: block;
     width: 20%;
+    text-align: center;
 }
 
 .mobile-menu-icon button {
@@ -329,7 +330,7 @@ footer ul{
     border: none;
     cursor: pointer;
     color: white;
-    margin: 15px 15px;
+    margin: 0;
 }
 
 .mobile-menu ul {
