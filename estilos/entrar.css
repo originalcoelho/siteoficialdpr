@@ -19,6 +19,7 @@ header {
     background-color: #24252a;
     position: absolute fixed;
     max-width: 100%;
+    height: auto;
 }
 
 
@@ -191,32 +192,17 @@ footer ul{
 
 /*Configurações do cabeçário*/
 
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo {
     display: flex;
     align-items: center;
-    width: 75%;
-    text-align: center;
-}
-
-.logo-susepe{
-    width: 30%;
-}
-
-.logo img{
     width: 60%;
-    height: 60%;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .logo p{
     text-transform: uppercase;
     background-color: #24252a;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: bold;
     color: #f2c029;
     width: 100%;
