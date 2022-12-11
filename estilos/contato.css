@@ -4,15 +4,21 @@
 .color4 { #2a3a59 };azul
 .color5 { #d9d9d9 };cinza*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    max-width: 100%;
+}
+
 header {
     background-color: #24252a;
-    position: fixed;
+    position: absolute fixed;
+    max-width: 100%;
 }
 
 
@@ -23,16 +29,19 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     display: flex;
     align-items: center;
     width: 30%;
 }
+
 .logo img{
     width: 90%;
     height: 90%;
     vertical-align: middle;
 }
+
 .logo p{
     text-transform: uppercase;
     background-color: #24252a;
@@ -40,17 +49,17 @@ header {
     font-weight: bold;
     color: #f2c029;
 }
+
 .logo-susepe{
     width: 20%;
 }
-
-
 
 .nav-list {
     display: flex;
     align-items: center;
     width: 50%;
 }
+
 .nav-list ul {
     display: flex;
     justify-content: center;
@@ -61,12 +70,14 @@ header {
 .nav-item {
     margin: 0 15px;
 }
+
 .nav-link {
     text-decoration: none;
     font-size: 1.5rem;
     color: #fff;
     font-weight: 400;
 }
+
 .nav-list a{
     text-decoration: none;
     text-transform: uppercase;
@@ -77,21 +88,22 @@ header {
     transition: .5s;
     padding: 0px;
 }
+
 .nav-list a:hover{
     color: #f2c029;
 }
 
-
-
 .login-button{
     margin: 15px;
 }
+
 .login-button button {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #f3c831;
 }
+
 .login-button button a {
     text-decoration: none;
     color: #fff;
@@ -99,26 +111,22 @@ header {
     font-size: 1.1rem;
 }
 
-
-
 .mobile-menu-icon {
     display: none;
 }
+
 .mobile-menu {
     display: none;
 }
 
-
-
 .img-fluid{
-    margin-top: 80px;
     width: 100%;
+    position:inherit;
 }
 
 
 
 /*Configurações do centro*/
-
 
 .meio{
     height: 600px;
@@ -142,27 +150,32 @@ footer{
     width: 100%;
     margin: auto;
 }
+
 .footer__link a{
     color: #f3c831;
     display: block;
     text-decoration: none;
     font-size: 1.2rem;
 }
+
 .container{
     display: flex;
     height: 120px;
     width: 100%;
 }
+
 footer h4{
     margin: 0;
     padding: 10px;
     width: 30%;
 }
+
 footer p{
     margin: 0;
     padding: 10px;
     width: 30%;
 }
+
 footer ul{
     margin: 0;
     padding: 0;
@@ -176,7 +189,6 @@ footer ul{
 
 
 /*CONFIGURAÇÃO MÓBILE*/
-
 @media screen and (max-width: 1250px) {
 
 /*Configurações do cabeçário*/
@@ -185,20 +197,24 @@ footer ul{
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     display: flex;
     align-items: center;
     width: 75%;
     text-align: center;
 }
+
 .logo-susepe{
     width: 30%;
 }
+
 .logo img{
     width: 60%;
     height: 60%;
     vertical-align: middle;
 }
+
 .logo p{
     text-transform: uppercase;
     background-color: #24252a;
@@ -207,10 +223,13 @@ footer ul{
     color: #f2c029;
     width: 100%;
     text-align: left;
+    margin-bottom: 0;
 }
+
 .nav-list{
-    width: 10%;
+    width: 2%;
 }
+
 .login-button{
     display: none;
     text-align: center;
@@ -224,24 +243,26 @@ footer ul{
     padding: 0;
     margin: 0;
 }
+
 .nav-item a{
     color: #d9d9d9;
     font-size: .8em;
     font-weight: 700;
     transition: .5s;
 }
+
 .nav-item a:hover{
     color: #f2c029;
 }
+
 .nav-item:first-child{
     border-top: 0.2px dotted rgb(255, 255, 255, 0.5);
 }
 
-
-
 .mobile-menu-icon {
     display: block;
 }
+
 .mobile-menu-icon button {
     background-color: transparent;
     border: none;
@@ -249,6 +270,7 @@ footer ul{
     color: white;
     margin: 15px 15px;
 }
+
 .mobile-menu ul {
     display: flex;
     flex-direction: column;
@@ -261,20 +283,24 @@ footer ul{
     color: white;
     font-size: 1.6rem;
 }
+
 .mobile-menu .login-button {
     display: block;
     padding: 1rem 2rem;
     text-align: center;
 }
+
 .mobile-menu .login-button button {
     width: 30%;
 }
+
 .open {
     display: block;
 }
 
 
 
+/*Configurações do centro*/
 
 .meio{
     height: 750px;
@@ -287,9 +313,7 @@ table{
 
 
 
-
-
-
+/*Configurações do rodapé*/
 
 footer{
     background-color: #242a2c;
@@ -299,28 +323,38 @@ footer{
     width: 100%;
     margin: auto;
 }
+
 footer h4{
     margin: 0;
     padding: 10px;
     width: 100%;
 }
+
 footer p{
     margin: 0;
     padding: 10px;
     width: 100%;
 }
+
 footer ul{
     margin: 0;
     padding: 0;
     width: 100%;
 }
+
 .container h4{
     font-size: 1em;
 }
+
+.footer__link{
+    text-align: left;
+}
+
 .footer__link li{
     list-style: none;
     margin: 5px 5px;
 }
+
 .footer__link a{
     color: #f3c831;
     display: block;
@@ -332,6 +366,4 @@ footer ul{
     height: 350px;
     width: 100%;
 }
-
-
 }
