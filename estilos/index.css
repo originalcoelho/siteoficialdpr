@@ -289,10 +289,11 @@ header {
     background-color: #24252a;
     font-size: 14px;
     font-weight: bold;
-    color: #f2c029;
+    /* color: #f2c029; */
     width: 100%;
     text-align: left;
     margin-bottom: 0;
+    color: #02733e;
 }
 
 .nav-list{
@@ -347,6 +348,7 @@ header {
     display: block;
     padding: 1rem 2rem;
     text-align: center;
+    margin: 0;
 }
 
 .mobile-menu .login-button button {
